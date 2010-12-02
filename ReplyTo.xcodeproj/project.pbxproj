@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BC476312A8342F001606DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BC476212A8342F001606DB /* Cocoa.framework */; };
+		A5BC476812A83430001606DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BC476612A83430001606DB /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5BC476012A8342F001606DB /* ReplyTo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplyTo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BC476212A8342F001606DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5BC476412A83430001606DB /* ReplyTo-Info.plist */ = {isa = PBXFileReference; path = "ReplyTo-Info.plist"; sourceTree = "<group>"; };
+		A5BC476512A83430001606DB /* ReplyTo-Prefix.pch */ = {isa = PBXFileReference; path = "ReplyTo-Prefix.pch"; sourceTree = "<group>"; };
+		A5BC476712A83430001606DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BC475D12A8342F001606DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BC476312A8342F001606DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BC475112A8342F001606DB = {
+			isa = PBXGroup;
+			children = (
+				A5BC475812A8342F001606DB /* Classes */,
+				A5BC475912A8342F001606DB /* Other Sources */,
+				A5BC475A12A8342F001606DB /* Resources */,
+				A5BC475B12A8342F001606DB /* Frameworks */,
+				A5BC476112A8342F001606DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BC475812A8342F001606DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5BC475912A8342F001606DB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC476512A83430001606DB /* ReplyTo-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A5BC475A12A8342F001606DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC476412A83430001606DB /* ReplyTo-Info.plist */,
+				A5BC476612A83430001606DB /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5BC475B12A8342F001606DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC476212A8342F001606DB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BC476112A8342F001606DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC476012A8342F001606DB /* ReplyTo.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BC475F12A8342F001606DB /* ReplyTo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BC476B12A83430001606DB /* Build configuration list for PBXNativeTarget "ReplyTo" */;
+			buildPhases = (
+				A5BC475C12A8342F001606DB /* Sources */,
+				A5BC475D12A8342F001606DB /* Frameworks */,
+				A5BC475E12A8342F001606DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplyTo;
+			productName = ReplyTo;
+			productReference = A5BC476012A8342F001606DB /* ReplyTo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BC475312A8342F001606DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A5BC475612A8342F001606DB /* Build configuration list for PBXProject "ReplyTo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5BC475112A8342F001606DB;
+			productRefGroup = A5BC476112A8342F001606DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BC475F12A8342F001606DB /* ReplyTo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BC475E12A8342F001606DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BC476812A83430001606DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BC475C12A8342F001606DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5BC476612A83430001606DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BC476712A83430001606DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BC476912A83430001606DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5BC476A12A83430001606DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5BC476C12A83430001606DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReplyTo-Prefix.pch";
+				INFOPLIST_FILE = "ReplyTo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A5BC476D12A83430001606DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReplyTo-Prefix.pch";
+				INFOPLIST_FILE = "ReplyTo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BC475612A8342F001606DB /* Build configuration list for PBXProject "ReplyTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BC476912A83430001606DB /* Debug */,
+				A5BC476A12A83430001606DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BC476B12A83430001606DB /* Build configuration list for PBXNativeTarget "ReplyTo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BC476C12A83430001606DB /* Debug */,
+				A5BC476D12A83430001606DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BC475312A8342F001606DB /* Project object */;
+}
