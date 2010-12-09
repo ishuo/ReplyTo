@@ -25,4 +25,16 @@
     [super dealloc];
 }
 
+
+- (id <AIMessageDisplayController>)messageDisplayControllerForChat:(AIChat *)inChat
+{
+    
+    
+    
+}
+
+
+
 @end
+
+

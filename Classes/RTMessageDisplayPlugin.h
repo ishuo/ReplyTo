@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Adium/AIInterfaceControllerProtocol.h>
 
 
-@interface RTMessageDisplayPlugin : NSObject {
+@interface RTMessageDisplayPlugin : NSObject<AIMessageDisplayPlugin> {
 @private
     
 }
+
+- (id <AIMessageDisplayController>)messageDisplayControllerForChat:(AIChat *)inChat;
 
 @end

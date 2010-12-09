@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5BC476312A8342F001606DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BC476212A8342F001606DB /* Cocoa.framework */; };
 		A5BC476812A83430001606DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BC476612A83430001606DB /* InfoPlist.strings */; };
+		A5BC477012A83BF7001606DB /* RTMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BC476F12A83BF6001606DB /* RTMain.m */; };
+		A5EBA66812B0265F004CB64F /* RTMessageDisplayPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EBA66712B0265F004CB64F /* RTMessageDisplayPlugin.m */; };
+		A5EBA66C12B0271C004CB64F /* RTMessageDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EBA66B12B0271C004CB64F /* RTMessageDisplayController.m */; };
+		A5EBA66E12B0F1A3004CB64F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EBA66D12B0F1A3004CB64F /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5BC476012A8342F001606DB /* ReplyTo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplyTo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BC476012A8342F001606DB /* ReplyTo.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplyTo.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BC476212A8342F001606DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		A5BC476412A83430001606DB /* ReplyTo-Info.plist */ = {isa = PBXFileReference; path = "ReplyTo-Info.plist"; sourceTree = "<group>"; };
-		A5BC476512A83430001606DB /* ReplyTo-Prefix.pch */ = {isa = PBXFileReference; path = "ReplyTo-Prefix.pch"; sourceTree = "<group>"; };
+		A5BC476412A83430001606DB /* ReplyTo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReplyTo-Info.plist"; sourceTree = "<group>"; };
+		A5BC476512A83430001606DB /* ReplyTo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReplyTo-Prefix.pch"; sourceTree = "<group>"; };
 		A5BC476712A83430001606DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BC476E12A83BF6001606DB /* RTMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMain.h; sourceTree = "<group>"; };
+		A5BC476F12A83BF6001606DB /* RTMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMain.m; sourceTree = "<group>"; };
+		A5EBA66612B0265F004CB64F /* RTMessageDisplayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMessageDisplayPlugin.h; sourceTree = "<group>"; };
+		A5EBA66712B0265F004CB64F /* RTMessageDisplayPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMessageDisplayPlugin.m; sourceTree = "<group>"; };
+		A5EBA66A12B0271C004CB64F /* RTMessageDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMessageDisplayController.h; sourceTree = "<group>"; };
+		A5EBA66B12B0271C004CB64F /* RTMessageDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMessageDisplayController.m; sourceTree = "<group>"; };
+		A5EBA66D12B0F1A3004CB64F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BC476312A8342F001606DB /* Cocoa.framework in Frameworks */,
+				A5EBA66E12B0F1A3004CB64F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +55,12 @@
 		A5BC475812A8342F001606DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5BC476E12A83BF6001606DB /* RTMain.h */,
+				A5BC476F12A83BF6001606DB /* RTMain.m */,
+				A5EBA66612B0265F004CB64F /* RTMessageDisplayPlugin.h */,
+				A5EBA66712B0265F004CB64F /* RTMessageDisplayPlugin.m */,
+				A5EBA66A12B0271C004CB64F /* RTMessageDisplayController.h */,
+				A5EBA66B12B0271C004CB64F /* RTMessageDisplayController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -69,6 +85,7 @@
 		A5BC475B12A8342F001606DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5EBA66D12B0F1A3004CB64F /* WebKit.framework */,
 				A5BC476212A8342F001606DB /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -77,7 +94,7 @@
 		A5BC476112A8342F001606DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5BC476012A8342F001606DB /* ReplyTo.bundle */,
+				A5BC476012A8342F001606DB /* ReplyTo.AdiumPlugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +116,7 @@
 			);
 			name = ReplyTo;
 			productName = ReplyTo;
-			productReference = A5BC476012A8342F001606DB /* ReplyTo.bundle */;
+			productReference = A5BC476012A8342F001606DB /* ReplyTo.AdiumPlugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BC477012A83BF7001606DB /* RTMain.m in Sources */,
+				A5EBA66812B0265F004CB64F /* RTMessageDisplayPlugin.m in Sources */,
+				A5EBA66C12B0271C004CB64F /* RTMessageDisplayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,14 +213,25 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"../Adium/build/**",
+					"\"../Adium/Frameworks/AIUtilities Framework/build\"/**",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReplyTo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Adium/Source/**";
 				INFOPLIST_FILE = "ReplyTo-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
 		};
@@ -210,13 +241,24 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"../Adium/build/**",
+					"\"../Adium/Frameworks/AIUtilities Framework/build\"/**",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReplyTo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../Adium/Source/**";
 				INFOPLIST_FILE = "ReplyTo-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;
 		};
