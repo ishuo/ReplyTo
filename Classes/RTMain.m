@@ -29,6 +29,7 @@
 
 - (void)installPlugin
 {
+    
     // Create our new menu item
 	NSMenuItem *timezoneMenuItem = [[NSMenuItem alloc] initWithTitle:@"Test!!" 
                                                               target:self
