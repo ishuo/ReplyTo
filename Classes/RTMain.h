@@ -15,15 +15,12 @@
 #import <WebKit/WebScriptObject.h>
 
 @interface RTMain : AIPlugin<AIHTMLContentFilter> {
-    AIChat *currentChat;
     
 }
 
-@property (retain, nonatomic) AIChat *currentChat;
-
 - (NSString *)filterHTMLString:(NSString *)inHTMLString content:(AIContentObject*)content;
 
-+ (NSInteger) showAlertWithMessage:(NSString *)message;
++ (NSInteger)showAlertWithMessage:(NSString *)message;
 
 - (void)webView:(WebView *)sender didClearWindowObject:(WebScriptObject *)windowObject forFrame:(WebFrame *)frame;
 
